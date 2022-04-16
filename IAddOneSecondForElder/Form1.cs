@@ -28,7 +28,7 @@ namespace IAddOneSecondForElder
         private void BeepCaller()
         {
             _currentIndex += timer1.Interval;
-            if (_currentIndex >= 1000 * 60)
+            if (_currentIndex >= 1000 * 30)
             {
                 _currentIndex = 0;
                 Core.Beep();
